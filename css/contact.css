@@ -1,0 +1,103 @@
+.contact-text {
+  text-align: center;
+  padding: 80px 0;
+}
+.contact-text h1{
+color: var(--text-color, #252B42);
+
+/* h2 */
+font-family: Montserrat;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 57px; /* 142.5% */
+letter-spacing: 0.2px;
+}
+.contact-text p{
+color: var(--second-text-color, #737373);
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 500;
+line-height: 20px; /* 142.857% */
+letter-spacing: 0.2px;
+}
+.contact-us{
+    background: #F3F3F3;
+}
+.box-contacts {
+  display: flex;
+  /* max-width: 1220px; */
+  justify-content: space-between;
+  margin-bottom: 128px;
+  
+}
+
+.box-contact1,
+.box-contact2,
+.box-contact3 {
+  width: 428px;
+  margin: 0 10px; /* Adjust the margin as needed */
+  padding: 50px 40px;
+
+  text-align: center;
+
+}
+.box-contact1{
+ margin-left: 120px;
+}
+.box-contact3{
+    margin-right: 120px;
+}
+.box-contacts p{
+color: var(--text-color, #252B42);
+text-align: center;
+
+/* h6 */
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; /* 171.429% */
+letter-spacing: 0.2px;
+}
+.box-contacts svg{
+    width: 72px;
+height: 72px;
+fill: #252B42;
+}
+#Vector{
+  fill: #00A0C1;
+}
+#Vector_2{
+  fill: #00A0C1;
+}
+.box-contacts h1{
+    color: var(--text-color, #252B42);
+text-align: center;
+margin: 15px 0;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 150% */
+letter-spacing: 0.1px;
+}
+.box-contacts button{
+  width: 160px;
+padding: 10px 20px;
+border-radius: 5px;
+border: 1px solid var(--primary-color, #FFA62B);
+}
+.box-contacts button a{
+   text-align: center;
+   color: var(--primary-color, #FFA62B);
+text-align: center;
+
+/* h6 */
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; /* 171.429% */
+letter-spacing: 0.2px;
+}

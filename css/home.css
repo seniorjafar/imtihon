@@ -1,0 +1,232 @@
+.home-backgraund {
+  display: flex;
+  background: red url(../images/brend.jpeg);
+  width: 1440px;
+  height: 650px;
+  text-align: center;
+  margin-bottom: 160px;
+}
+.home {
+  display: flex;
+  width: 1440px;
+}
+.home .texts {
+  display: flex;
+  position: relative;
+  top: 100px;
+  left: 97px;
+  height: auto;
+}
+.texts {
+  display: flex;
+  max-width: 1440px;
+  flex-direction: column;
+  text-align: left;
+  align-items: flex-start;
+  gap: 35px;
+}
+.texts h1 {
+  color: var(--text-color, #252b42);
+
+  /* h1 */
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  max-width: 509px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 70px; /* 137.931% */
+  letter-spacing: 0.2px;
+}
+.texts p {
+  font-family: "Montserrat", sans-serif;
+  color: var(--second-text-color, #737373);
+  font-size: 20px;
+  max-width: 376px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px; /* 150% */
+  letter-spacing: 0.2px;
+}
+
+.learning {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Montserrat", sans-serif;
+  align-items: center;
+  gap: 10px;
+}
+.btn-1 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 36px;
+  flex-direction: column;
+  align-items: center;
+  font-size: 10px;
+  border-radius: 37px;
+  background: var(--primary-color, #ffa62b);
+}
+.btn-2 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 36px;
+  flex-direction: column;
+  align-items: center;
+  font-size: 10px;
+  border-radius: 37px;
+  border: 1px solid var(--secondary-color-1, #00a0c1);
+}
+.box-models {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1440px;
+  margin-top: 80px;
+  justify-content: space-between;
+  gap: 25px;
+}
+.box-model1 {
+  display: flex;
+  width: 388px;
+  padding: 35px 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #fff;
+
+  /* SHADOW */
+  box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+}
+.box-model1 .svg img {
+  width: 48px;
+  height: 40.709px;
+  flex-shrink: 0;
+}
+.box-model1 h1 {
+  color: var(--text-color, #252b42);
+
+  /* h3 */
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 133.333% */
+  letter-spacing: 0.1px;
+}
+.box-model1 p {
+  color: var(--second-text-color, #737373);
+
+  /* paragraph */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 0.2px;
+}
+
+.box-model2 {
+  display: flex;
+  width: 388px;
+  padding: 35px 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #fff;
+  /* SHADOW */
+  box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+}
+.box-model2 .svg img {
+  width: 48px;
+  height: 40.709px;
+  flex-shrink: 0;
+}
+.box-model2 h1 {
+  color: var(--text-color, #252b42);
+
+  /* h3 */
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 133.333% */
+  letter-spacing: 0.1px;
+}
+.box-model2 p {
+  color: var(--second-text-color, #737373);
+
+  /* paragraph */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 0.2px;
+}
+
+.box-model3 {
+  display: flex;
+  width: 388px;
+  padding: 35px 40px;
+  flex-direction: column;
+  align-items: flex-start;
+
+  background: var(--secondary-color-1, #00a0c1);
+
+  /* SHADOW */
+  box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+}
+.box-model3 .svg img {
+  width: 48px;
+  height: 40.709px;
+  flex-shrink: 0;
+}
+.box-model3 h1 {
+  color: var(--text-color, #fff);
+
+  /* h3 */
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 133.333% */
+  letter-spacing: 0.1px;
+}
+.box-model3 p {
+  color: var(--second-text-color, #fff);
+
+  /* paragraph */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 0.2px;
+}
+@media (max-width: 768px) {
+  .home-backgraund {
+    height: 450px;
+  }
+
+  .home .texts {
+    top: 50px;
+    left: 50px;
+  }
+
+  .texts h1 {
+    font-size:;
+  }}
+  @media  (max-width: 766px){
+.box-models{
+ flex-wrap: wrap;
+ 
+}
+.box-model1{
+  flex-wrap: wrap;
+}
+.box-model2{
+  flex-wrap: wrap;
+}
+.box-model3{
+  flex-wrap: wrap;
+}
+
+  }
+    
+  }

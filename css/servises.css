@@ -1,0 +1,134 @@
+.servises{
+    background-color: #fff;
+}
+.box-videos {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  gap: 240px;
+}
+.container-servis{
+     width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.servis-text{
+    display: block;
+
+}
+.servis-text h1{
+    color: var(--text-color, #252B42);
+text-align: center;
+
+/* h2 */
+font-family: Montserrat;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 57px; /* 142.5% */
+letter-spacing: 0.2px;
+}
+.servis-text p{
+    color: var(--second-text-color, #737373);
+text-align: center;
+
+/* paragraph */
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; /* 142.857% */
+letter-spacing: 0.2px;
+margin-bottom: 100px;
+}
+.video {
+  width: 600px;
+}
+
+.video video {
+  width: 100%;
+}
+
+.video-text {
+  width: 30%;
+  padding-left: 20px;
+}
+
+.video-text-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.video-text h1 {
+  margin-bottom: 10px;
+  color: var(--text-color, #252B42);
+
+/* h2 */
+font-family: Montserrat;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 57px; /* 142.5% */
+letter-spacing: 0.2px;
+}
+
+.video-text p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  color: var(--second-text-color, #737373);
+
+/* paragraph */
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; /* 142.857% */
+letter-spacing: 0.2px;
+}
+
+.video-text h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  color: var(--text-color, #252B42);
+
+/* h5 */
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 150% */
+letter-spacing: 0.1px;
+}
+
+.video-text h2 img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  width: 32px;
+height: 32px;
+}
+
+.video-text h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: var(--second-text-color, #737373);
+
+/* h6 */
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; /* 171.429% */
+letter-spacing: 0.2px;
+}
+@media (max-width: 768px){
+.servises {
+    flex-wrap: wrap;
+}
+}
